@@ -143,13 +143,14 @@ full = [
     "torch>=2.5.0,<3.0.0",
     "transformers>=4.35.0,<5.0.0",
 ]
-
-[dependency-groups]
 test = [
     "hypothesis>=6.132.0",
+    "iniconfig>=2.0.0",
     "openpyxl>=3.1.5",
     "pillow>=10.4.0",
     "pytest>=8.3.5",
+    "pluggy>=1.0.0",
+    "pygments>=2.17.2",
     "python-docx>=1.1.2",
     "python-pptx>=1.0.2",
     "reportlab>=4.4.1",
